@@ -15,6 +15,6 @@ public class Shape : MonoBehaviour
     {
         Stacked?.Invoke();
         _shapeMover.enabled = false;
-        //gameObject.transform.SetParent(collision.gameObject.transform);
+        gameObject.transform.SetParent(collision.gameObject.transform);
     }
 }
