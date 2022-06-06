@@ -13,8 +13,8 @@ public class Shape : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("ITS WORKS");
         Stacked?.Invoke();
         _shapeMover.enabled = false;
-        gameObject.transform.SetParent(collision.gameObject.transform);
     }
 }

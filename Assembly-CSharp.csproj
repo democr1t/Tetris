@@ -55,9 +55,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShapeMover.cs" />
     <Compile Include="Assets\Scripts\Shape.cs" />
+    <Compile Include="Assets\Scripts\GridCreator.cs" />
     <Compile Include="Assets\Scripts\ShapeSpawner.cs" />
     <Compile Include="Assets\Scripts\ShapeRotator.cs" />
-    <Compile Include="Assets\Scripts\GridCreator.cs" />
+    <Compile Include="Assets\ShapeSquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -4,7 +4,9 @@ using System.Collections.Generic;
 public class ShapeSpawner : MonoBehaviour
 {
     [SerializeField] private List<Shape> _prefabs;
-    [SerializeField] private List<Shape> _shapes;
+    [SerializeField] private List<ShapeSquare> _shapeSquares;
+
+    private ShapeSquare _shapeSquare;
 
     private void Start()
     {
@@ -14,25 +16,29 @@ public class ShapeSpawner : MonoBehaviour
     {  
         int randomIndex = Random.Range(0, _prefabs.Count);
         var shape = Instantiate(_prefabs[randomIndex], transform);
-        shape.Stacked += OnShapeStacked;
-        _shapes.Add(shape);
+
+        foreach  (Transform childSquare in shape.transform)
+        {
+            _shapeSquare = childSquare.gameObject.GetComponent<ShapeSquare>();
+            _shapeSquare.Stacked += OnShapeStacked;
+        }
     }
 
     private void OnDisable()
     {
-        foreach (var shape in _shapes)
+        foreach (var shapeSquare in _shapeSquares)
         {
-            shape.Stacked -= OnShapeStacked;
+            shapeSquare.Stacked -= OnShapeStacked;
         }
     }
 
     private void OnShapeStacked()
     {
-        Debug.Log("HERE");
-        foreach (var shape in _shapes)
+        foreach (var shape in _shapeSquares)
         {
             shape.Stacked -= OnShapeStacked;
         }
+
         Spawn();
     }
 }
