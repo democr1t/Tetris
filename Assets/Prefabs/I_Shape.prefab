@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 24591721701858145}
   - component: {fileID: 7035842972170667349}
   - component: {fileID: 5691331054066205852}
+  - component: {fileID: 4292454227059414300}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -108,7 +109,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.95, y: 0.95}
   m_EdgeRadius: 0
 --- !u!50 &5691331054066205852
 Rigidbody2D:
@@ -131,6 +132,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4292454227059414300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866984706207537699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccda9a384fac52a46a38f457b07f4b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2609834638809883521
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +156,7 @@ GameObject:
   - component: {fileID: 6850049921222864276}
   - component: {fileID: 7330074203362607917}
   - component: {fileID: 2797201149375735668}
+  - component: {fileID: 7489442726167412464}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -239,7 +253,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.95, y: 0.95}
   m_EdgeRadius: 0
 --- !u!50 &2797201149375735668
 Rigidbody2D:
@@ -262,6 +276,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7489442726167412464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2609834638809883521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccda9a384fac52a46a38f457b07f4b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2629715144990975286
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +300,7 @@ GameObject:
   - component: {fileID: 4427562867987583285}
   - component: {fileID: 5751963286167644601}
   - component: {fileID: 4305406503645931989}
+  - component: {fileID: 7686807663098703867}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -370,7 +397,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.95, y: 0.95}
   m_EdgeRadius: 0
 --- !u!50 &4305406503645931989
 Rigidbody2D:
@@ -393,6 +420,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7686807663098703867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2629715144990975286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccda9a384fac52a46a38f457b07f4b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4626623385704985668
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +444,7 @@ GameObject:
   - component: {fileID: 2938585355779695943}
   - component: {fileID: 1984869856616927223}
   - component: {fileID: 5594177656149830864}
+  - component: {fileID: 598498004594650182}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -501,7 +541,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.95, y: 0.95}
   m_EdgeRadius: 0
 --- !u!50 &5594177656149830864
 Rigidbody2D:
@@ -524,6 +564,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &598498004594650182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4626623385704985668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccda9a384fac52a46a38f457b07f4b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8304675297581981571
 GameObject:
   m_ObjectHideFlags: 0

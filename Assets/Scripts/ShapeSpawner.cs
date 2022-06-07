@@ -14,14 +14,15 @@ public class ShapeSpawner : MonoBehaviour
     }
     public void Spawn()
     {  
+
         int randomIndex = Random.Range(0, _prefabs.Count);
         var shape = Instantiate(_prefabs[randomIndex], transform);
-
-        foreach  (Transform childSquare in shape.transform)
-        {
-            _shapeSquare = childSquare.gameObject.GetComponent<ShapeSquare>();
-            _shapeSquare.Stacked += OnShapeStacked;
-        }
+        shape.Stacked += OnShapeStacked;
+        //foreach  (Transform childSquare in shape.transform)
+        //{
+        //    _shapeSquare = childSquare.gameObject.GetComponent<ShapeSquare>();
+        //    _shapeSquare.Stacked += OnShapeStacked;
+        //}
     }
 
     private void OnDisable()
