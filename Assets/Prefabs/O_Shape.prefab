@@ -86,7 +86,11 @@ GameObject:
   - component: {fileID: 7740086673334443298}
   - component: {fileID: 1111479082217040371}
   - component: {fileID: 4542081568890191180}
+<<<<<<< Updated upstream
   - component: {fileID: 7532100334746332269}
+=======
+  - component: {fileID: 8310444611093803885}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Square (7)
   m_TagString: Untagged
@@ -206,7 +210,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< Updated upstream
 --- !u!114 &7532100334746332269
+=======
+--- !u!114 &8310444611093803885
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,7 +238,11 @@ GameObject:
   - component: {fileID: 6210014931555797062}
   - component: {fileID: 6463920049115023010}
   - component: {fileID: 5742761846736819652}
+<<<<<<< Updated upstream
   - component: {fileID: 3688843636804600780}
+=======
+  - component: {fileID: 3187889795653335538}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Square (4)
   m_TagString: Untagged
@@ -350,7 +362,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< Updated upstream
 --- !u!114 &3688843636804600780
+=======
+--- !u!114 &3187889795653335538
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -374,7 +390,11 @@ GameObject:
   - component: {fileID: 3500125962125847232}
   - component: {fileID: 7320575981809434839}
   - component: {fileID: 252159531198134367}
+<<<<<<< Updated upstream
   - component: {fileID: 7012832413770553001}
+=======
+  - component: {fileID: 5903256728618117777}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Square (6)
   m_TagString: Untagged
@@ -494,7 +514,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< Updated upstream
 --- !u!114 &7012832413770553001
+=======
+--- !u!114 &5903256728618117777
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -518,7 +542,11 @@ GameObject:
   - component: {fileID: 2440516368358738874}
   - component: {fileID: 8689280551190911947}
   - component: {fileID: 1817948637381710066}
+<<<<<<< Updated upstream
   - component: {fileID: 5499761976154658297}
+=======
+  - component: {fileID: 3742742958522715388}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Square (5)
   m_TagString: Untagged
@@ -638,7 +666,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< Updated upstream
 --- !u!114 &5499761976154658297
+=======
+--- !u!114 &3742742958522715388
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
