@@ -16,11 +16,19 @@ G:/unity/projects/Tetris
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 49796
 Successfully changed project path to: G:/prog/Unity/Tetris
 G:/prog/Unity/Tetris
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 96.29 ms, found 3 plugins.
+=======
+53645
+Successfully changed project path to: G:/unity/projects/Tetris
+G:/unity/projects/Tetris
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.76 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 53645
 Successfully changed project path to: G:/unity/projects/Tetris
@@ -44,7 +52,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+>>>>>>> Stashed changes
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 >>>>>>> Stashed changes
@@ -52,6 +64,7 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.001301 seconds.
 Native extension for WindowsStandalone target not found
@@ -74,10 +87,23 @@ Domain Reload Profiling:
 	ReloadAssembly (851ms)
 		BeginReloadAssembly (79ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.002205 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (79ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (726ms)
@@ -112,10 +138,65 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (46ms)
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
+=======
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1664ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1375ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+>>>>>>> Stashed changes
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+<<<<<<< Updated upstream
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
 Registered in 0.002915 seconds.
@@ -193,6 +274,12 @@ Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 >>>>>>> Stashed changes
+=======
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.0 MB.
@@ -200,7 +287,11 @@ System memory in use after: 96.1 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2634.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Total: 3.848800 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.120100 ms MarkObjects: 3.405400 ms  DeleteObjects: 0.091700 ms)
+=======
+Total: 6.674100 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.106200 ms MarkObjects: 6.207600 ms  DeleteObjects: 0.110700 ms)
+>>>>>>> Stashed changes
 =======
 Total: 6.674100 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.106200 ms MarkObjects: 6.207600 ms  DeleteObjects: 0.110700 ms)
 >>>>>>> Stashed changes
@@ -217,6 +308,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   path: Assets/Scripts/ShapeSpawner.cs
   artifactKey: Guid(91aee848e4443064fad89946fd587e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -329,9 +421,35 @@ Total: 4.937200 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.088400 m
   artifactKey: Guid(af55be25169f1c545bd955c47820abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/L_shape.prefab using Guid(af55be25169f1c545bd955c47820abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8d61b4fc467f9f05d359f494009c27') in 0.148760 seconds 
   Import took 0.155000 seconds .
+=======
+  path: Assets/Prefabs/L_shape.prefab
+  artifactKey: Guid(af55be25169f1c545bd955c47820abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/L_shape.prefab using Guid(af55be25169f1c545bd955c47820abed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8d61b4fc467f9f05d359f494009c27') in 0.148760 seconds 
+  Import took 0.155000 seconds .
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Prefabs/I_Shape.prefab
+  artifactKey: Guid(c348f3440c3a61042936c4ca801ca15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/I_Shape.prefab using Guid(c348f3440c3a61042936c4ca801ca15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1de1a6a909414289ca338b8651c3e6') in 0.025693 seconds 
+  Import took 0.034128 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.5 MB.
+System memory in use after: 55.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 6.521800 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.103600 ms MarkObjects: 6.056000 ms  DeleteObjects: 0.044900 ms)
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000534 seconds.
   path: Assets/Prefabs/I_Shape.prefab
   artifactKey: Guid(c348f3440c3a61042936c4ca801ca15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1396,6 +1514,38 @@ AssetImportParameters requested are different than current active one (requested
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 =======
 Received Import Request.
+  Time since last request: 13.588948 seconds.
+  path: Assets/Prefabs/O_Shape.prefab
+  artifactKey: Guid(60b2dc85a8eccf549b11598ee4a503d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/O_Shape.prefab using Guid(60b2dc85a8eccf549b11598ee4a503d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a699cf6c84d100827eedc177bcb4648') in 0.012595 seconds 
+  Import took 0.021760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.669981 seconds.
+  path: Assets/Prefabs/S_Shape.prefab
+  artifactKey: Guid(ac46d6e66c6a8834981d9aed7d2f009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/S_Shape.prefab using Guid(ac46d6e66c6a8834981d9aed7d2f009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fcd6eb0cfc141cb0a4ae5f1c917904') in 0.012653 seconds 
+  Import took 0.017336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.386086 seconds.
+  path: Assets/Prefabs/T_Shape.prefab
+  artifactKey: Guid(23613329b85b63b46847d2eaba0025ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/T_Shape.prefab using Guid(23613329b85b63b46847d2eaba0025ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e141dbf13a6612f0eb085f42111e0e32') in 0.011160 seconds 
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.571796 seconds.
+  path: Assets/Prefabs/S_Shape.prefab
+  artifactKey: Guid(ac46d6e66c6a8834981d9aed7d2f009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/S_Shape.prefab using Guid(ac46d6e66c6a8834981d9aed7d2f009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b51d991d98a160ca84368ae8c6679d') in 0.015326 seconds 
+  Import took 0.020504 seconds .
+
+>>>>>>> Stashed changes
+=======
   Time since last request: 13.588948 seconds.
   path: Assets/Prefabs/O_Shape.prefab
   artifactKey: Guid(60b2dc85a8eccf549b11598ee4a503d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
